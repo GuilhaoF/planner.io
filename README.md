@@ -38,13 +38,17 @@ Desenvolvida com React e estilizada com Tailwind CSS, esta aplicação permite a
   - [React Router](https://reactrouter.com/)
 
           
-<h2 id="features"> 🧐 Features </h2>   
+<h2 id="features"> 🧐 Features </h2> 
+
+<div style="display:flex">
 - Cadastrar Viagem 
 - Cadastrar Atividades para aquela viagem
 - Cadastrar Links
 - Listar Convidados
 - Listar Atividades
 - Listar Links
+</div>
+
 
 <h2 id="started">🚀 Getting started</h2>
 
@@ -81,7 +85,7 @@ Rotas da Aplicacao/Telas
 |----------------------|-----------------------------------------------------
 | <kbd>/</kbd> | pagina para cadastrar a viagem e escolher data
 | <kbd>/trips/:tripId</kbd> | pagina da viagem cadastrada com as atividades , cadastrar atividades , gerenciar convidados e links
-|
+
 
 <h2 id="colab">🤝 Collaborators</h2>
 
