@@ -80,7 +80,7 @@ npm run dev or yarn dev
 
 How to start your project back-end 
 
-# Clone este repositório
+``` bash 
 $ git clone https://github.com/rocketseat-education/nlw-journey-nodejs.git
 
 # Acesse a pasta do projeto no terminal/cmd
