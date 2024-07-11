@@ -12,8 +12,7 @@ export function Guests() {
   useEffect(() => {
     api.get(`trips/${tripId}/participants`).then((response) => {
       setParticipants(response.data.participants); // setando os participantes da viagem
-    }); 
-    console.log(participants);  
+    });   
   },[tripId]);
 
   return (

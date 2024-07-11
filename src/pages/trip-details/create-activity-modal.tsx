@@ -25,6 +25,7 @@ export function CreateActivityModal({
       title,
       occurs_at,
     });
+  
     navigate(0); // Navega para a mesma página e atualiza os dados
   }
 

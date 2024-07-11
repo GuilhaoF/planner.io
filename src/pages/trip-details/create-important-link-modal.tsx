@@ -24,6 +24,7 @@ export function CreateImportantLinksModal({closeImportantLinkModal} : CreateImpo
       title,
       url,
     });
+    alert("Atividade cadastrada com sucesso!");
     navigate(0);
   
   }
@@ -60,6 +61,7 @@ export function CreateImportantLinksModal({closeImportantLinkModal} : CreateImpo
           <div className="h-14 flex-1 px-4 bg-zinc-950 border border-zinc-800 rounded-lg flex items-center gap-2">
             <Calendar className="text-zinc-400 size-5" />
             <input
+              type="url"
               name="url"
               placeholder="Coloque aqui o link"
               className="bg-transparent text-lg placeholder-zinc-400 outline-none flex-1"
