@@ -8,7 +8,9 @@
 </p>
 
 <p align="center">
-    <b></b>
+    <b>
+Desenvolvida com React e estilizada com Tailwind CSS, esta aplicação permite aos usuários cadastrar viagens, planejar todos os detalhes e convidar amigos para participar. Com uma interface moderna e responsiva, os usuários podem gerenciar itinerários, reservas e listas de tarefas, tornando o planejamento de viagens uma experiência colaborativa e organizada.
+    </b>
 </p>
 
 <p align="center">
@@ -26,16 +28,25 @@
 
 <h2 id="technologies">💻 Technologies</h2>
 
-- list of all technologies you used
-  [] React
-  [] Tailwind Css
-  [] Typescript
-  [] Vite
-  [] Axios
-  [] React-Router-Dom
+- Lista de todas as tecnologias utilizadas:
+
+  - [React](https://reactjs.org/)
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - [TypeScript](https://www.typescriptlang.org/)
+  - [Vite](https://vitejs.dev/)
+  - [Axios](https://axios-http.com/)
+  - [React Router](https://reactrouter.com/)
+
+          
+<h2 id="features"> 🧐 Features </h2>   
+- Cadastrar Viagem 
+- Cadastrar Atividades para aquela viagem
+- Cadastrar Links
+- Listar Convidados
+- Listar Atividades
+- Listar Links
 
 <h2 id="started">🚀 Getting started</h2>
-
 
 <h3>Prerequisites</h3>
 
@@ -61,6 +72,16 @@ cd planner.io
 npm install or yarn add
 npm run dev or yarn dev
 ```
+
+<h2 id="routes">📍 Application Routes</h2>
+
+Rotas da Aplicacao/Telas
+​
+| rotas | descricao  
+|----------------------|-----------------------------------------------------
+| <kbd>/</kbd> | pagina para cadastrar a viagem e escolher data
+| <kbd>/trips/:tripId</kbd> | pagina da viagem cadastrada com as atividades , cadastrar atividades , gerenciar convidados e links
+|
 
 <h2 id="colab">🤝 Collaborators</h2>
 
@@ -93,7 +114,6 @@ Here you will explain how other developers can contribute to your project. For e
 [📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
 
 [💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
-
 
 ## License 💭
 
