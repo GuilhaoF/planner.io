@@ -69,13 +69,33 @@ git clone https://github.com/GuilhaoF/planner.io.git
 
 <h3>Starting</h3>
 
-How to start your project
+How to start your project front-end
 
 ```bash
 cd planner.io
 npm install or yarn add
 npm run dev or yarn dev
+
 ```
+
+How to start your project back-end 
+
+# Clone este repositório
+$ git clone https://github.com/rocketseat-education/nlw-journey-nodejs.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd nlw-journey-nodejs
+
+# Instale as dependências
+$ npm install or yarn add 
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev or yarn dev 
+
+# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+
+```
+
 
 <h2 id="routes">📍 Application Routes</h2>
 
